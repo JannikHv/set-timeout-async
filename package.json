@@ -1,0 +1,32 @@
+{
+  "name": "set-timeout-async",
+  "version": "1.0.0",
+  "main": "./dist/set-timeout-async.min.js",
+  "scripts": {
+    "clean": "rm -f dist/*",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JannikHv/set-timeout-async.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JannikHv/set-timeout-async/issues"
+  },
+  "homepage": "https://github.com/JannikHv/set-timeout-async#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "typescript": "^3.9.10",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
